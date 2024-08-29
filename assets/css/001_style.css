@@ -1,0 +1,150 @@
+/* Start Header  */
+/* Logo Home Idead */
+.navbar-brand {
+  font-weight: 700;
+  font-size: 16px;
+  color: #1e1e1e;
+  font-family: "Noto Kufi Arabic";
+}
+/* Image Logo */
+.navbar-brand img {
+  width: 48px;
+  height: 48px;
+}
+/* Button Navbar  */
+.nav-item .btn {
+  width: 126.4px;
+  height: 52px;
+  font-size: 12px;
+  font-weight: 700;
+  font-family: "Noto Kufi Arabic";
+  color: #535353;
+  border: 0.4px solid #9d9d9d;
+  border-radius: 0px;
+  transition: all 0.4s ease-in-out;
+}
+/* Home Button */
+.nav-item .home {
+  color: #fff;
+  border: none;
+  background-color: #ffa216;
+  border-radius: 0px 32px 32px 0px;
+}
+/* Connect Button */
+.nav-item .btnConnect {
+  border-radius: 32px 0px 0px 32px;
+}
+/* Buy & Rent */
+.nav-item .btnRent,
+.nav-item .btnBuy {
+  width: 93.5px;
+  height: 52px;
+  border: 0.1px solid #9d9d9d;
+}
+.nav-item .btnRent {
+  border-radius: 32px 0px 0px 32px;
+  color: #535353;
+}
+.nav-item .btnBuy {
+  border-radius: 0px 32px 32px 0px;
+  background-color: #266ef1;
+  color: #fff;
+  border: none;
+}
+/* Notification End Navbar */
+.notifications .nav-item {
+  width: 52px;
+  height: 52px;
+  border: 0.1px solid #9d9d9d;
+  border-radius: 32px;
+  margin: 0px 5px;
+  position: relative;
+}
+/*  Notification Icon  */
+.notifications .nav-item i {
+  font-size: 20px;
+  position: absolute;
+  top: 11px;
+  left: 16px;
+  text-align: center;
+}
+/* End Header */
+
+/* Start Home Section */
+#home {
+  padding: 40px 0px;
+  min-height: 40vh;
+}
+/* Head Of Home */
+#home .homeHead {
+  direction: rtl;
+  font-size: 48px;
+  font-weight: 700;
+  background-image: linear-gradient(to right, #f1d4cd, #8998c9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#home .homeImage {
+  background-color: #fff;
+  width: 64px;
+  height: 64px;
+  border-radius: 200px;
+  position: relative;
+}
+#home .homeImage img {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 20px;
+  left: 22px;
+}
+#home .home-item {
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0, 5);
+  border: none;
+  border-radius: 32px 32px 0px 0px;
+  padding: 40px;
+  width: 400px;
+  background-color: #f6f6f6;
+}
+#home .home-item h5 {
+  font-size: 24px;
+  font-weight: 500;
+}
+#home .home-item p {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Noto Kufi Arabic";
+  color: #4a4a4a;
+  direction: rtl;
+  padding: 40px 0px;
+}
+#home .home-item .home-button {
+  width: 320px;
+  height: 48px;
+  position: relative;
+  display: flex;
+  justify-content: end;
+  margin: 10px 0px 40px 0;
+}
+#home .home-item .btn {
+  background-color: #eaeaea;
+  font-size: 16px;
+  font-family: "Noto Kufi Arabic";
+  font-weight: 500;
+  padding: 8px 50px;
+}
+#home .home-item h3 {
+  color: #1e1e1e;
+  font-size: 22px;
+  font-weight: 400;
+  font-family: "Noto Kufi Arabic";
+  width: 400px;
+}
+#home .row p {
+  line-height: 34.49px;
+  color: #4a4a4a;
+  direction: rtl;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Noto Kufi Arabic";
+}

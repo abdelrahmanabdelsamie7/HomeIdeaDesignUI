@@ -1,0 +1,178 @@
+/* Start Header  */
+/* Logo Home Idead */
+:root {
+  --font-family: "Noto Kufi Arabic";
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+.navbar-brand {
+  font-weight: 700;
+  font-size: 16px;
+  color: #1e1e1e;
+  font-family: "Noto Kufi Arabic";
+}
+.navbar-brand img {
+  width: 48px;
+  height: 48px;
+}
+#home,
+.sigin-item-content {
+  min-height: 70vh;
+}
+.sigin-item-content h1 {
+  margin: 50px;
+  font-size: 24px;
+  font-weight: 700;
+  font-family: var(--font-family);
+  text-align: center;
+}
+#home .form-group .fName,
+.lName {
+  width: 240px;
+  height: 64px;
+  margin: 0px 7px;
+  border-radius: 18px;
+  border: 1px solid #e8e8e8;
+  text-indent: 10px;
+}
+
+.sigin-item-content .form-group input.inputField {
+  margin: 7px 0px;
+  width: 500px;
+  height: 58px;
+  border: 1px solid #e8e8e8;
+  border-radius: 18px;
+  text-indent: 60px;
+}
+.sigin-item-content .form-group {
+  position: relative;
+}
+.sigin-item-content .form-group span.whatsappIcon {
+  position: absolute;
+  top: 156px;
+  right: 144px;
+}
+.sigin-item-content .form-group span.phoneIcon {
+  position: absolute;
+  top: 86px;
+  right: 144px;
+}
+.sigin-item-content .form-group span.cityIcon {
+  position: absolute;
+  top: 228px;
+  right: 144px;
+}
+.sigin-item-content .form-group span.emailIcon {
+  position: absolute;
+  top: 302px;
+  right: 144px;
+}
+.sigin-item-content .form-group span.lockIconOne {
+  position: absolute;
+  top: 372px;
+  right: 144px;
+}
+.sigin-item-content .form-group span.lockIconTwo {
+  position: absolute;
+  top: 441px;
+  right: 144px;
+}
+.sigin-item-content .form-group span i {
+  font-size: 19.5px;
+  color: #6480f7;
+}
+.sigin-item-content .form-group .btn {
+  border-radius: 16px;
+  width: 400px;
+  height: 56px;
+  background-color: #303030;
+  transition: all 0.3s ease-out;
+  box-sizing: 16px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: var(--font-family);
+  text-align: center;
+  margin: 20px 0px;
+}
+#home .sigin-item-img {
+  width: 100%;
+  min-height: 733px;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../Images/SignUp.jfif);
+  background-size: cover;
+  background-position: center;
+  border-radius: 0px 24px 24px 0px;
+}
+#home .home-image {
+  position: relative;
+}
+#home .home-image .btn {
+  width: 132px;
+  height: 48px;
+}
+#home .home-image .signUp {
+  position: absolute;
+  color: #fff;
+  background-color: #1e1e1e;
+  border-radius: 32px;
+  top: 30px;
+  left: 180px;
+}
+#home .home-image .signIn {
+  position: absolute;
+  color: #1e1e1e;
+  background-color: #fff;
+  border-radius: 32px;
+  top: 30px;
+  left: 33px;
+}
+#home .home-image p {
+  position: absolute;
+  width: 508px;
+  height: 165px;
+  bottom: 0px;
+  right: 130px;
+  direction: rtl;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: var(--font-family);
+  color: #fff;
+  line-height: 34.51px;
+}
+@media only screen and (max-width: 576px) {
+  #home .form-group .fName,
+  .lName {
+    width: 200px;
+    height: 54px;
+    margin: 0px 7px;
+    border-radius: 18px;
+    border: 1px solid #e8e8e8;
+    text-indent: 10px;
+  }
+  #home .form-group .inputField {
+    width: 420px;
+    height: 54px;
+    margin: 7px 0px;
+    border-radius: 18px;
+    border: 1px solid #e8e8e8;
+    text-indent: 20px;
+  }
+  #home .form-group span i {
+    display: none;
+  }
+}
+@media only screen and (max-width: 1400px) {
+ 
+  #home .form-group span i {
+    display: none;
+  }
+}

@@ -9,6 +9,9 @@
   box-sizing: border-box;
   list-style: none;
 }
+body {
+  position: relative;
+}
 .navbar-brand {
   font-weight: 700;
   font-size: 16px;
@@ -48,38 +51,36 @@
   border-radius: 18px;
   text-indent: 60px;
 }
-.sigin-item-content .form-group {
-  position: relative;
-}
+
 .sigin-item-content .form-group span.whatsappIcon {
   position: absolute;
-  top: 156px;
-  right: 144px;
+  top: 335px;
+  right: 148px;
 }
 .sigin-item-content .form-group span.phoneIcon {
   position: absolute;
-  top: 86px;
-  right: 144px;
+  top: 263px;
+  right: 148px;
 }
 .sigin-item-content .form-group span.cityIcon {
   position: absolute;
-  top: 228px;
-  right: 144px;
+  top: 407px;
+  right: 148px;
 }
 .sigin-item-content .form-group span.emailIcon {
   position: absolute;
-  top: 302px;
-  right: 144px;
+  top: 477px;
+  right: 148px;
 }
 .sigin-item-content .form-group span.lockIconOne {
   position: absolute;
-  top: 372px;
-  right: 144px;
+  top: 550px;
+  right: 148px;
 }
 .sigin-item-content .form-group span.lockIconTwo {
   position: absolute;
-  top: 441px;
-  right: 144px;
+  top: 620px;
+  right: 148px;
 }
 .sigin-item-content .form-group span i {
   font-size: 19.5px;
@@ -148,31 +149,46 @@
   color: #fff;
   line-height: 34.51px;
 }
-@media only screen and (max-width: 576px) {
+/* @media only screen and(max-width:576px) {
   #home .form-group .fName,
   .lName {
-    width: 200px;
-    height: 54px;
+    width: 420px;
+    height: 64px;
     margin: 0px 7px;
     border-radius: 18px;
     border: 1px solid #e8e8e8;
     text-indent: 10px;
   }
-  #home .form-group .inputField {
-    width: 420px;
-    height: 54px;
-    margin: 7px 0px;
-    border-radius: 18px;
-    border: 1px solid #e8e8e8;
-    text-indent: 20px;
-  }
-  #home .form-group span i {
-    display: none;
-  }
 }
-@media only screen and (max-width: 1400px) {
- 
-  #home .form-group span i {
-    display: none;
+@media only screen and (max-width: 768px) {
+  .sigin-item-content .form-group span.whatsappIcon {
+    position: absolute;
+    top: 335px;
+    right: 120px;
   }
-}
+  .sigin-item-content .form-group span.phoneIcon {
+    position: absolute;
+    top: 263px;
+    right: 120px;
+  }
+  .sigin-item-content .form-group span.cityIcon {
+    position: absolute;
+    top: 407px;
+    right: 120px;
+  }
+  .sigin-item-content .form-group span.emailIcon {
+    position: absolute;
+    top: 477px;
+    right: 120px;
+  }
+  .sigin-item-content .form-group span.lockIconOne {
+    position: absolute;
+    top: 550px;
+    right: 120px;
+  }
+  .sigin-item-content .form-group span.lockIconTwo {
+    position: absolute;
+    top: 620px;
+    right: 120px;
+  }
+} */
